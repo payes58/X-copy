@@ -42,7 +42,7 @@ const UserWidget = ({ userId, picturePath }) => {
     firstName,
     lastName,
     location,
-    occupation,
+    ocuppation,
     impressions,
     friends,
   } = user;
@@ -87,7 +87,7 @@ const UserWidget = ({ userId, picturePath }) => {
         </Box>
         <Box display="flex" alignItems="center" gap="1rem">
           <WorkOutlineOutlined fontSize="large" sx={{ color: main }} />
-          <Typography color={medium}>{occupation}</Typography>
+          <Typography color={medium}>{ocuppation}</Typography>
         </Box>
       </Box>
 
